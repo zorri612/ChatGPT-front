@@ -58,7 +58,7 @@ const ChatPrompt = () => {
       setPrompt('')
     } finally {
       setIsLoading(false)
-      // Enfocar el textarea después de enviar
+      // Enfocar el textarea después de enviar lololo
       if (textareaRef.current) {
         textareaRef.current.focus();
       }
